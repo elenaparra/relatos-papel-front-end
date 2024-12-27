@@ -1,0 +1,105 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+    width: 25%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #3a4f41;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-footer {
+    background-color: #e1dee3;
+}
+
+.App-nav {
+    background-color: #3a4f41 !important;
+    color: white;
+}
+
+.App-nav a {
+    color: white;
+}
+
+.App-nav .active {
+    color: #b9314f !important;
+}
+
+.App-btn-primary {
+    background-color: #d5a18e !important;
+    border-color: #d5a18e !important;
+}
+
+.App-btn-secondary {
+    background-color: #3a4f41 !important;
+    border-color: #3a4f41 !important;
+}
+
+.text-color {
+    color: white !important;
+}
+
+
+.App-icon-sizes {
+    font-size: 2rem;
+}
+
+.App-nav-dot {
+    height: 23px;
+    width: 23px;
+    background-color: #d5a18e;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.App-border-0 {
+    border: 0px !important;
+    background: transparent;
+}
+
+.pagination-card {
+    width: 75% !important;
+    height: 350px;
+    max-height: 25.25rem;
+}
+
+.shopping-cart-footer {
+    border-top: 1px solid #ddd !important;
+    padding: 10px 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    background: #f8f9fa !important;
+}
+
+.checkout-content {
+    height: 100vh;
+    padding: 20px;
+}
+
+.checkout-content--column-left {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.checkout-content--column-right {
+    padding: 20px;
+    background-color: #e9ecef;
+}
