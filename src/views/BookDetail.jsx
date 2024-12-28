@@ -24,7 +24,7 @@ export const BookDetail = () => {
                 <Row className="align-items-center">
                     <Col md={6} className="text-center">
                         <img
-                            src={book.image}
+                            src={book.imageMax}
                             alt="Ejemplo"
                             className="img-fluid rounded"
                         />

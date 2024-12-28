@@ -21,7 +21,7 @@ export const BookSearch = () => {
             setBooksFilter(books);
             return;
         }
-        setBooksFilter(books.filter(book => book.title.includes(e.target.value)));
+        setBooksFilter(books.filter(book => book.title.toLowerCase().includes(e.target.value.toLowerCase())));
     }
 
     useEffect(() => {
