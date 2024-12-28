@@ -31,7 +31,7 @@ const PaginationCard = ({items, itemsPerPage}) => {
                     <div className="col-md-3 mb-3" key={index}>
                         <Card className="card">
                             <Link to={`/bookDetail/${item.id}`}>
-                                <Card.Img variant="top" className="pagination-card" src={item.image}/>
+                                <Card.Img variant="top" className="pagination-card" src={item.imageMax}/>
                             </Link>
                             <Card.Body>
                                 <Card.Title>{item.title}</Card.Title>
@@ -41,7 +41,7 @@ const PaginationCard = ({items, itemsPerPage}) => {
                                 <Card.Text>
                                     € {item.price}
                                 </Card.Text>
-                                <Button className="App-btn-primary" onClick={()  => addShoppingCart(item)}>Agregar al carrito</Button>
+                                <Button className="App-btn-primary App-margin-3" onClick={()  => addShoppingCart(item)}>Agregar al carrito</Button>
                                 <Link to={`/bookDetail/${item.id}`}>
                                     <Button className="App-btn-secondary">Ver detalle</Button>
                                 </Link>

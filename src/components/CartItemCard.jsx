@@ -1,4 +1,3 @@
-import book from "../img/book-cart.fw.png";
 import React from "react";
 import Card from "react-bootstrap/Card";
 import {CardBody} from "react-bootstrap";
@@ -10,7 +9,7 @@ export const CartItemCard = ({item, updateQuantity, removeShoppingCart}) => {
         <Card className="cart-item-card">
             {/* Imagen a la izquierda */}
             <Card.Img
-                src={book}
+                src={item.imageMin}
                 className="cart-item-card--image"
                 alt="Producto"
             />

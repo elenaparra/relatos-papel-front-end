@@ -1,4 +1,9 @@
 import book from "../img/book-store.fw.png";
+import bookCart from "../img/book-cart.fw.png";
+import book1 from "../img/book-store-1.fw.png";
+import bookCart1 from "../img/book-cart-1.fw.png";
+import book2 from "../img/book-store-2.fw.png";
+import bookCart2 from "../img/book-cart-2.fw.png";
 import {useEffect, useState} from 'react';
 
 const useBook = () => {
@@ -7,17 +12,17 @@ const useBook = () => {
 
     useEffect(() => {
         setBooks([
-            {id: 1,title: "Item 1", author: "Descripción del Item 1", price: 100, image: book},
-            {id: 2,title: "Item 2", author: "Descripción del Item 2", price: 100, image: book},
-            {id: 3,title: "Item 3", author: "Descripción del Item 3", price: 100, image: book},
-            {id: 4,title: "Item 4", author: "Descripción del Item 4", price: 100, image: book},
-            {id: 5,title: "Item 5", author: "Descripción del Item 5", price: 100, image: book},
-            {id: 6,title: "Item 6", author: "Descripción del Item 6", price: 100, image: book},
-            {id: 7,title: "Item 7", author: "Descripción del Item 7", price: 100, image: book},
-            {id: 8,title: "Item 8", author: "Descripción del Item 8", price: 100, image: book},
-            {id: 9,title: "Item 9", author: "Descripción del Item 9", price: 100, image: book},
-            {id: 10,title: "Item 10", author: "Descripción del Item 10", price: 100, image: book},
-            {id: 11,title: "Item 11", author: "Descripción del Item 11", price: 100, image: book}
+            {id: 1,title: "Democracia", author: "Paul Cartledge", price: 90, imageMax: book1, imageMin: bookCart1},
+            {id: 2,title: "Los Vagabundos de Dios", author: "Mario Mendoza", price: 150, imageMax: book, imageMin: bookCart},
+            {id: 3,title: "Critica De La Razon Pura", author: "Immanuel Kant", price: 100, imageMax: book2, imageMin: bookCart2},
+            {id: 4,title: "Democracia", author: "Paul Cartledge", price: 90, imageMax: book1, imageMin: bookCart1},
+            {id: 5,title: "Los Vagabundos de Dios", author: "Mario Mendoza", price: 150,  imageMax: book, imageMin: bookCart},
+            {id: 6,title: "Critica De La Razon Pura", author: "Immanuel Kant", price: 100, imageMax: book2, imageMin: bookCart2},
+            {id: 7,title: "Democracia", author: "Paul Cartledge", price: 90, imageMax: book1, imageMin: bookCart1},
+            {id: 8,title: "Los Vagabundos de Dios", author: "Mario Mendoza", price: 150,  imageMax: book, imageMin: bookCart},
+            {id: 9,title: "Critica De La Razon Pura", author: "Immanuel Kant", price: 100, imageMax: book2, imageMin: bookCart2},
+            {id: 10,title: "Democracia", author: "Paul Cartledge", price: 90, imageMax: book1, imageMin: bookCart1},
+            {id: 11,title: "Los Vagabundos de Dios", author: "Mario Mendoza", price: 150,  imageMax: book, imageMin: bookCart}
         ]);
     }, []);
 
